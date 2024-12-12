@@ -1,0 +1,118 @@
+@import url("reset.css");
+
+body {
+	background: #d8d8d6;
+}
+
+/* 1 */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.block_1 {
+	font-size: 0px;
+	background: #f6ffd4;
+}
+
+.block_1>div {
+	display: inline-block;
+	font-size: 16px;
+	padding: 20px;
+	width: 400px;
+	height: 400px;
+	vertical-align: top;
+	font-weight: 400;
+	line-height: 19.36px;
+	text-align: justified;
+	outline: 1px solid #000000;
+}
+
+/* 2 */
+
+.block_2 {
+	font-size: 0px;
+	background: #dafbf7;
+}
+
+.block_2_parent {
+	display: inline-block;
+	font-size: 16px;
+	width: 800px;
+	vertical-align: top;
+	outline: 2px solid #000000;
+	font-weight: 400;
+	line-height: 19.36px;
+	text-align: justified;
+}
+
+.block_2_parent>div {
+	height: 200px;
+	outline: 1px solid #000000;
+	padding: 20px;
+}
+
+.block_2_parent+.block_2_parent {
+	width: 400px;
+}
+
+.block_2_parent+.block_2_parent>div {
+	height: 133.333px;
+}
+
+/* 3 */
+
+.block_3 {
+	font-size: 0px;
+	background: #F9E6F9;
+
+}
+
+.block_3_inlain {
+	display: inline-block;
+	font-size: 16px;
+	width: 400px;
+	vertical-align: top;
+	outline: 1px solid #000000;
+	font-weight: 400;
+	line-height: 19.36px;
+}
+
+.block_3_inlain>div {
+	height: 400px;
+	outline: 1px solid #000000;
+}
+
+.block_3_inlain+.block_3_inlain {
+	width: 800px;
+}
+
+.block_3_inlain+.block_3_inlain>div {
+	height: 200px;
+}
+
+.block_3_3 {
+	font-size: 0px;
+}
+
+.block_3_inlain_2 {
+	display: inline-block;
+	font-size: 16px;
+	width: 400px;
+	height: 200px;
+	vertical-align: top;
+	outline: 1px solid #000000;
+}
+
+.block_3_inlain_2>div {
+	outline: 1px solid #000000;
+	padding: 20px;
+}
+
+.block_3_inlain_2+.block_3_inlain_2 {
+	width: 400px;
+}
+
+.block_3_inlain_2+.block_3_inlain_2>div {
+	height: 100px;
+}
