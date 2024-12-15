@@ -18,13 +18,12 @@ body {
 .block_1>div {
 	display: inline-block;
 	font-size: 16px;
-	padding: 20px;
 	width: 400px;
 	height: 400px;
 	vertical-align: top;
+	padding: 20px;
 	font-weight: 400;
-	line-height: 19.36px;
-	text-align: justified;
+	line-height: 19px;
 	outline: 1px solid #000000;
 }
 
@@ -42,8 +41,7 @@ body {
 	vertical-align: top;
 	outline: 2px solid #000000;
 	font-weight: 400;
-	line-height: 19.36px;
-	text-align: justified;
+	line-height: 19px;
 }
 
 .block_2_parent>div {
@@ -64,8 +62,7 @@ body {
 
 .block_3 {
 	font-size: 0px;
-	background: #F9E6F9;
-
+	background: #f9e6f9;
 }
 
 .block_3_inlain {
@@ -76,7 +73,7 @@ body {
 	vertical-align: top;
 	outline: 1px solid #000000;
 	font-weight: 400;
-	line-height: 19.36px;
+	line-height: 19px;
 }
 
 .block_3_inlain>div {
@@ -107,7 +104,6 @@ body {
 
 .block_3_inlain_2>div {
 	outline: 1px solid #000000;
-	padding: 20px;
 }
 
 .block_3_inlain_2+.block_3_inlain_2 {
@@ -116,4 +112,105 @@ body {
 
 .block_3_inlain_2+.block_3_inlain_2>div {
 	height: 100px;
+}
+
+/* Float 1*/
+
+.float_1 {
+	background: #f6ffd4;
+}
+
+.float_1>div {
+	width: 400px;
+	height: 400px;
+	vertical-align: top;
+	padding: 20px;
+	float: left;
+	outline: 1px solid #000000;
+}
+
+/* Float 2 */
+
+.float_2 {
+	background: #dafbf7;
+}
+
+.float_2_parent {
+	width: 800px;
+	font-size: 16px;
+	vertical-align: top;
+	outline: 2px solid #000000;
+	font-weight: 400;
+	float: left;
+}
+
+.float_2_parent>div {
+	height: 200px;
+	outline: 1px solid #000000;
+	padding: 20px;
+}
+
+.float_2_parent+.float_2_parent {
+	width: 400px;
+}
+
+.float_2_parent+.float_2_parent>div {
+	height: 133.333px;
+}
+
+/* Float 3 */
+
+.float_3 {
+	background: #f9e6f9;
+	
+}
+
+.float_3_inlain {
+	font-size: 16px;
+	width: 400px;
+	height: 400px;
+	vertical-align: top;
+	outline: 1px solid #000000;
+	font-weight: 400;
+	line-height: 19px;
+	float: left;
+	
+}
+
+.float_3_inlain>div {
+	height: 400px;
+	outline: 1px solid #000000;
+	
+}
+
+.float_3_inlain+.float_3_inlain {
+	width: 800px;
+}
+
+.float_3_inlain+.float_3_inlain>div {
+	height: 200px;
+}
+
+
+.float_3_inlain_2 {
+	float: left;
+	font-size: 16px;
+	width: 400px;
+	height: 200px;
+	vertical-align: top;
+	outline: 1px solid #000000;
+}
+
+.float_3_inlain_2>div {
+	outline: 1px solid #000000;
+	
+}
+
+.float_3_inlain_2+.float_3_inlain_2 {
+	width: 400px;
+}
+
+.float_3_inlain_2+.float_3_inlain_2>div {
+	height: 100px;
+	padding: 20px;
 }
