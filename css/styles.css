@@ -63,6 +63,7 @@ body {
 .block_3 {
 	font-size: 0px;
 	background: #f9e6f9;
+	
 }
 
 .block_3_inlain {
@@ -103,7 +104,9 @@ body {
 }
 
 .block_3_inlain_2>div {
+	height: 200px;
 	outline: 1px solid #000000;
+
 }
 
 .block_3_inlain_2+.block_3_inlain_2 {
@@ -112,8 +115,11 @@ body {
 
 .block_3_inlain_2+.block_3_inlain_2>div {
 	height: 100px;
+	padding: 20px;
 }
-
+.padding {
+	padding: 20px;
+}
 /* Float 1*/
 
 .float_1 {
@@ -162,7 +168,6 @@ body {
 
 .float_3 {
 	background: #f9e6f9;
-	
 }
 
 .float_3_inlain {
@@ -174,13 +179,11 @@ body {
 	font-weight: 400;
 	line-height: 19px;
 	float: left;
-	
 }
 
 .float_3_inlain>div {
 	height: 400px;
 	outline: 1px solid #000000;
-	
 }
 
 .float_3_inlain+.float_3_inlain {
@@ -190,7 +193,6 @@ body {
 .float_3_inlain+.float_3_inlain>div {
 	height: 200px;
 }
-
 
 .float_3_inlain_2 {
 	float: left;
@@ -203,7 +205,6 @@ body {
 
 .float_3_inlain_2>div {
 	outline: 1px solid #000000;
-	
 }
 
 .float_3_inlain_2+.float_3_inlain_2 {
