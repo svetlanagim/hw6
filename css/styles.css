@@ -10,13 +10,19 @@ body {
 	margin: 0 auto;
 }
 
+.disp {
+	display: inline-block;
+
+}.flo {
+	float: left;
+ }
+
 .block_1 {
 	font-size: 0px;
 	background: #f6ffd4;
 }
 
 .block_1>div {
-	display: inline-block;
 	font-size: 16px;
 	width: 400px;
 	height: 400px;
@@ -35,7 +41,6 @@ body {
 }
 
 .block_2_parent {
-	display: inline-block;
 	font-size: 16px;
 	width: 800px;
 	vertical-align: top;
@@ -67,7 +72,6 @@ body {
 }
 
 .block_3_inlain {
-	display: inline-block;
 	font-size: 16px;
 	width: 400px;
 	height: 400px;
@@ -95,7 +99,6 @@ body {
 }
 
 .block_3_inlain_2 {
-	display: inline-block;
 	font-size: 16px;
 	width: 400px;
 	height: 200px;
@@ -131,7 +134,7 @@ body {
 	height: 400px;
 	vertical-align: top;
 	padding: 20px;
-	float: left;
+	/* float: left; */
 	outline: 1px solid #000000;
 }
 
@@ -162,56 +165,4 @@ body {
 
 .float_2_parent+.float_2_parent>div {
 	height: 133.333px;
-}
-
-/* Float 3 */
-
-.float_3 {
-	background: #f9e6f9;
-}
-
-.float_3_inlain {
-	font-size: 16px;
-	width: 400px;
-	height: 400px;
-	vertical-align: top;
-	outline: 1px solid #000000;
-	font-weight: 400;
-	line-height: 19px;
-	float: left;
-}
-
-.float_3_inlain>div {
-	height: 400px;
-	outline: 1px solid #000000;
-}
-
-.float_3_inlain+.float_3_inlain {
-	width: 800px;
-}
-
-.float_3_inlain+.float_3_inlain>div {
-	height: 200px;
-}
-
-.float_3_inlain_2 {
-	float: left;
-	font-size: 16px;
-	width: 400px;
-	height: 200px;
-	vertical-align: top;
-	outline: 1px solid #000000;
-}
-
-.float_3_inlain_2>div {
-	outline: 1px solid #000000;
-}
-
-.float_3_inlain_2+.float_3_inlain_2 {
-	width: 400px;
-}
-
-.float_3_inlain_2+.float_3_inlain_2>div {
-	height: 100px;
-	padding: 20px;
 }
