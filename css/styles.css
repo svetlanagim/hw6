@@ -3,7 +3,18 @@
 body {
 	background: #d8d8d6;
 }
-
+.font_roboto {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+}
+.font_oswald {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	}
+	.font_playwrite {
+		font-family: "Playwrite", sans-serif;
+		font-weight: 400;
+		}
 /* 1 */
 .container {
 	width: 1200px;
